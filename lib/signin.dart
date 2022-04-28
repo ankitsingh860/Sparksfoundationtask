@@ -45,9 +45,9 @@ class LoginController with ChangeNotifier {
 
   twitterLogin() async {
         final twitterLogin = TwitterLogin(
-        apiKey: "9QoAX6GETo8ZM9emFDGq29eIz",
-        apiSecretKey: "zIqQtOoTHHKTPHoQ7pGX4eWWSI6oA93fBrDMzdmwvdB6VPatTm",
-        redirectURI: "https://socialauthenticate-e2109.firebaseapp.com/__/auth/handler"
+        apiKey: "xyx",
+        apiSecretKey: "abc",
+        redirectURI: "https://xyz"
        );
         final authResult = await twitterLogin.login(forceLogin: true);
         // ignore: unnecessary_new
